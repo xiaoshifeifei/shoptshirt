@@ -1,0 +1,36 @@
+@media all {
+  html {
+    font-size: 22px;
+  }
+}
+
+@media all and (device-width: 1800px) and (device-height: 1080px),
+(device-width: 1080px) and (device-height: 1800px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+@media all and (min-width: 981px) and (max-width: 1080px) {
+  html {
+    font-size: 21px;
+  }
+}
+
+@media all and (min-width: 901px) and (max-width: 980px) {
+  html {
+    font-size: 21px;
+  }
+}
+
+@media all and (min-width: 801px) and (max-width: 900px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media all and (min-width: 701px) and (max-width: 800px) {
+  html {
+    font-size: 20px;
+  }
+}
